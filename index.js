@@ -7,7 +7,9 @@ module.exports = function(input) {
   if (input) {
     console.log(convert(input));
   } else {
-    console.error('Must pass in the text.');
+    process.stdin.on('data', function(input) {
+      process.stdout.write(convert(input.toString()));
+    });
   }
 };
 

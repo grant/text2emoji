@@ -9,7 +9,7 @@ Convert text to emoji on the fly.
 npm install text2emoji -g
 ```
 
-## Example
+## Examples
 
 #### Convert arbitrary text:
 

@@ -11,7 +11,7 @@ npm install text2emoji -g
 
 ## Example
 
-### Convert arbitrary text:
+#### Convert arbitrary text:
 
 ```
 $ text2emoji "electric octopus cat = octocat"
@@ -20,7 +20,7 @@ $ text2emoji "electric octopus cat = octocat"
 
 :zap: :octopus: :cat: = :octocat:
 
-### Github commits:
+#### Github commits:
 
 ```
 $ text2emoji "Fixes money bug for foreign currencies like pound, euro, and yen." | git commit -F -
@@ -29,7 +29,7 @@ $ text2emoji "Fixes money bug for foreign currencies like pound, euro, and yen."
 
 [master 5fc0095] Fixes :moneybag: :bug: for foreign currencies like :pound:, :euro:, and :yen:
 
-### Files:
+#### Files:
 
 ```
 $ cat normalFile.md > text2emoji > emojiFile.md

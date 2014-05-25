@@ -1,5 +1,5 @@
 
-var BANNED_ALIASES = ['it', 'on', 'a'];
+var BANNED_ALIASES = ['it', 'on', 'a', 'us'];
 var fs = require('fs');
 
 // Converts text to emoji codes

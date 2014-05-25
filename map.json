@@ -527,7 +527,7 @@
   "no_mouth": ["no mouth"],
   "no_pedestrians": ["no pedestrians"],
   "no_smoking": ["no smoking"],
-  "non-potable water": ["potable water"],
+  "non-potable_water": ["potable water"],
   "nose": [],
   "notebook": [],
   "notebook_with_decorative_cover": ["notebook with decorative cover"],

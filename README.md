@@ -3,8 +3,6 @@ text2emoji
 
 Convert text to emoji on the fly.
 
-## Install
-
 ```
 npm install text2emoji -g
 ```

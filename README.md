@@ -5,13 +5,20 @@ Convert text to emoji on the fly.
 
 ## Example
 
-```$ text2emoji "electric octopus cat = octocat"```
+```
+$ text2emoji "electric octopus cat = octocat"
 
-```>>> ":electric: :octopus: :cat: = :octocat:"```
+>>> ":electric: :octopus: :cat: = :octocat:"
 
-```$ text2emoji "Fixes money bug for foreign currencies like pound, euro, and yen." | git commit -F -```
+$ text2emoji "Fixes money bug for foreign currencies like pound, euro, and yen." | git commit -F -
 
-```>>> [master 5fc0095] Fixes :moneybag: :bug: for foreign currencies like :pound:, :euro:, and :yen:.```
+>>> [master 5fc0095] Fixes :moneybag: :bug: for foreign currencies like :pound:, :euro:, and :yen:.
+```
+
+### Which will look like this:
+
+:electric: :octopus: :cat: = :octocat:
+Fixes :moneybag: :bug: for foreign currencies like :pound:, :euro:, and :yen:
 
 ## Where is this useful?
 

@@ -305,7 +305,7 @@
   "sunny": [],
   "partly_sunny": [],
   "cloud": [],
-  "zap": [],
+  "zap": ["electric", "electricity", "power", "lightning"],
   "umbrella": [],
   "snowflake": [],
   "snowman": [],

@@ -2,15 +2,12 @@
 var fs = require('fs');
 
 // Converts text to emoji codes
-// Usage: function('file.txt')
-module.exports = function(filePath) {
-  if (!filePath) {
-    // Path is required
-    console.error('Must pass a filepath');
-    console.log('$ text2emoji file.txt');
+// Usage: function('input here')
+module.exports = function(input) {
+  if (input) {
+    console.log(convert(input));
   } else {
-    var content = fs.readFileSync(filePath, 'utf8');
-    fs.writeFileSync(filePath, convert(content));
+    console.error('Must pass in the text.');
   }
 };
 
@@ -26,12 +23,21 @@ function convert (input) {
   // Replace the keywords
   for (var i in keywords) {
     var keyword = keywords[i];
-    
-    // Remove colon keywords (if they are already there)
-    output = output.replace(RegExp(':'+escapeRegExp(keyword)+':','g'), keyword);
 
-    // Add colon keywords
-    output = output.replace(RegExp('\\b'+escapeRegExp(keyword)+'\\b','g'), ':'+keyword+':');
+    // Setup keyword aliases (i.e. words that map to the emoji keyword)
+    var aliases = map[keyword];
+    aliases.push(keyword);
+
+    // Go through each emoji alias
+    for (var j in aliases) {
+      var alias = aliases[j];
+      
+      // Remove colon keywords (if they are already there)
+      output = output.replace(RegExp(':'+escapeRegExp(alias)+':','g'), alias);
+
+      // Add colon keywords
+      output = output.replace(RegExp('\\b'+escapeRegExp(alias)+'\\b','g'), ':'+keyword+':');
+    }
   }
 
   return output;

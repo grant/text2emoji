@@ -68,6 +68,10 @@ $ cat normalFile.md > text2emoji > emojiFile.md
 
 to name a few...
 
+## Contribute! :pray:
+
+Please fork this and add more aliases to [map.json](map.json) :notebook_with_decorative_cover:!
+
 ## Useful links
 
 - [emoji cheat sheet](http://www.emoji-cheat-sheet.com/)

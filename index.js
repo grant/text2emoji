@@ -36,7 +36,7 @@ function convert (input) {
       output = output.replace(RegExp(':'+escapeRegExp(alias)+':','g'), alias);
 
       // Add colon keywords
-      output = output.replace(RegExp('\\b'+escapeRegExp(alias)+'\\b','g'), ':'+keyword+':');
+      output = output.replace(RegExp('\\b'+escapeRegExp(alias)+'\\b','gi'), ':'+keyword+':');
     }
   }
 

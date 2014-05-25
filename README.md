@@ -32,7 +32,7 @@ $ text2emoji "Fixes money bug for foreign currencies like pound, euro, and yen."
 #### Files:
 
 ```
-$ cat normalFile.md > text2emoji > emojiFile.md
+$ cat normalFile.md | text2emoji > emojiFile.md
 ```
 
 ## Where is this useful?

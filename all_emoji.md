@@ -526,7 +526,7 @@
 - :no_mouth: no_mouth
 - :no_pedestrians: no_pedestrians
 - :no_smoking: no_smoking
-- :non-potable water: non-potable water
+- :non-potable_water: non-potable water
 - :nose: nose
 - :notebook: notebook
 - :notebook_with_decorative_cover: notebook_with_decorative_cover

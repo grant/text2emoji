@@ -1,4 +1,5 @@
 
+var BANNED_ALIASES = ['it', 'on', 'a'];
 var fs = require('fs');
 
 // Converts text to emoji codes
@@ -26,9 +27,15 @@ function convert (input) {
   for (var i in keywords) {
     var keyword = keywords[i];
 
+
     // Setup keyword aliases (i.e. words that map to the emoji keyword)
     var aliases = map[keyword];
-    aliases.push(keyword);
+    // A couple of words are banned because they are so common.
+    // We only want to search the ones that aren't banned.
+    // You can still reference them with other aliases
+    if (BANNED_ALIASES.indexOf(keyword) === -1) {
+      aliases.push(keyword);
+    }
 
     // Go through each emoji alias
     for (var j in aliases) {

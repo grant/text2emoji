@@ -1,8 +1,8 @@
 {
-  "+1": [],
-  "-1": [],
-  "100": [],
-  "1234": [],
+  "+1": ["plus one", "(y)", "(Y)"],
+  "-1": ["minus one"],
+  "100": ["one hundred"],
+  "1234": ["one two three four"],
   "8ball": [],
   "a": [],
   "ab": [],
@@ -320,7 +320,7 @@
   "fries": [],
   "frog": [],
   "frowning": [],
-  "fu": ["fuck you"]
+  "fu": ["fuck you"],
   "fuelpump": [],
   "full_moon": ["full moon"],
   "full_moon_with_face": ["full moon with face"],
@@ -882,5 +882,5 @@
   "yum": [],
   "zap": ["electric", "electricity", "power", "lightning"],
   "zero": [],
-  "zzz": [],
+  "zzz": []
 }

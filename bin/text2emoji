@@ -2,6 +2,6 @@
 
 var path = require('path');
 var fs = require('fs');
-var src = path.join(path.dirname(fs.realpathSync(__filename)), '../src');
+var src = path.join(path.dirname(fs.realpathSync(__filename)), '../');
 
 require(src)(process.argv[2]);

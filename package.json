@@ -1,6 +1,6 @@
 {
   "name": "text2emoji",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert text to emoji codes",
   "main": "index.js",
   "preferGlobal": true,

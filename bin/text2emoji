@@ -4,6 +4,4 @@ var path = require('path');
 var fs = require('fs');
 var src = path.join(path.dirname(fs.realpathSync(__filename)), '../');
 
-var text2emoji = require(src);
-
-text2emoji(process.argv[2]);
+require(src)(process.argv[2]);

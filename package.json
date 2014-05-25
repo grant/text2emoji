@@ -1,0 +1,26 @@
+{
+  "name": "text2emoji",
+  "version": "0.0.0",
+  "description": "Convert text to emoji codes",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/grant/text2emoji.git"
+  },
+  "keywords": [
+    "text",
+    "to",
+    "emoji",
+    "github"
+  ],
+  "author": "Grant Timmerman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grant/text2emoji/issues"
+  },
+  "homepage": "https://github.com/grant/text2emoji"
+}

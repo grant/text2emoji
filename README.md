@@ -3,13 +3,18 @@ text2emoji
 
 Convert text to emoji on the fly.
 
+## Install
+
+```
+npm install text2emoji -g
+```
+
 ## Example
 
 ### Convert arbitrary text:
 
 ```
 $ text2emoji "electric octopus cat = octocat"
-
 >>> ":zap: :octopus: :cat: = :octocat:"
 ```
 
@@ -19,7 +24,6 @@ $ text2emoji "electric octopus cat = octocat"
 
 ```
 $ text2emoji "Fixes money bug for foreign currencies like pound, euro, and yen." | git commit -F -
-
 >>> [master 5fc0095] Fixes :moneybag: :bug: for foreign currencies like :pound:, :euro:, and :yen:.
 ```
 

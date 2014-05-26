@@ -12,8 +12,8 @@ npm install text2emoji -g
 #### Convert arbitrary text:
 
 ```
-$ text2emoji "electric octopus cat = octocat"
->>> ":zap: :octopus: :cat: = :octocat:"
+text2emoji "electric octopus cat = octocat"
+:zap: :octopus: :cat: = :octocat:
 ```
 
 :zap: :octopus: :cat: = :octocat:
@@ -21,8 +21,8 @@ $ text2emoji "electric octopus cat = octocat"
 #### Github commits:
 
 ```
-$ text2emoji "Fixes money bug for foreign currencies like pound, euro, and yen." | git commit -F -
->>> [master 5fc0095] Fixes :moneybag: :bug: for foreign currencies like :pound:, :euro:, and :yen:.
+text2emoji "Fixes money bug for foreign currencies like pound, euro, and yen." | git commit -F -
+[master 5fc0095] Fixes :moneybag: :bug: for foreign currencies like :pound:, :euro:, and :yen:.
 ```
 
 [master 5fc0095] Fixes :moneybag: :bug: for foreign currencies like :pound:, :euro:, and :yen:
@@ -30,7 +30,7 @@ $ text2emoji "Fixes money bug for foreign currencies like pound, euro, and yen."
 #### Files:
 
 ```
-$ cat normalFile.md | text2emoji > emojiFile.md
+cat normalFile.md | text2emoji > emojiFile.md
 ```
 
 ## Where is this useful?
